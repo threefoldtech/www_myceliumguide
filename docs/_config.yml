@@ -1,0 +1,32 @@
+title: Mycelium Guide
+description: A practical guide to using Mycelium - an IPv6 overlay network for secure device connections
+theme: jekyll-theme-cayman
+baseurl: "/www_myceliumguide"
+url: "https://threefoldtech.github.io"
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: Installation
+    url: /installation
+  - title: Quick Start
+    url: /quick-start
+  - title: Configuration
+    url: /configuration
+  - title: Usage
+    url: /usage
+  - title: Troubleshooting
+    url: /troubleshooting
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
