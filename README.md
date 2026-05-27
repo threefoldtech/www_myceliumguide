@@ -45,7 +45,8 @@ Contributions are welcome! To improve the documentation:
 
 ## 📄 License
 
-This documentation is part of the Mycelium project. See the [main repository](https://github.com/threefoldtech/mycelium) for license information.
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
+Copyright (c) TFTech NV.
 
 ## 🔗 Related Resources
 
