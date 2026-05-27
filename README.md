@@ -50,7 +50,7 @@ bundle install
 bundle exec jekyll serve
 ```
 
-Visit `http://localhost:4000/www_myceliumguide/`
+Visit `http://localhost:4000/mycelium_guide/`
 
 ## Contributing
 
