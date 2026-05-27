@@ -1,54 +1,66 @@
-# Mycelium User Guide
+# Mycelium Guide
 
-A comprehensive, user-friendly guide for using Mycelium - an IPv6 overlay network for secure device connections.
+Mycelium Guide is the public documentation and tutorial website for setting up and using the Mycelium encrypted overlay network.
 
-## 📚 Documentation
+## What this is
 
-The documentation is available in two locations:
+Mycelium Guide provides step-by-step instructions for installing, configuring, and troubleshooting Mycelium on various platforms. It serves as the primary learning resource for new Mycelium users and as a reference for ongoing operation.
 
-- **GitHub Pages (Recommended)**: [https://threefoldtech.github.io/www_myceliumguide/](https://threefoldtech.github.io/www_myceliumguide/)
-- **Source Files**: [`/docs`](/docs) directory
+The documentation covers:
+- Installation on Linux, macOS, Windows, iOS, and Android
+- Quick start guides for connecting to the network
+- Configuration options and CLI reference
+- Daily usage patterns including SOCKS5 proxy setup
+- Troubleshooting common issues
 
-## 📖 Contents
+## What this repository contains
 
-- **[Installation](docs/installation.md)** - Get Mycelium running on Linux, macOS, Windows, iOS, and Android
-- **[Quick Start](docs/quick-start.md)** - Connect to the network in under 5 minutes
-- **[Configuration](docs/configuration.md)** - Customize your setup with config files and CLI options
-- **[Usage](docs/usage.md)** - Daily usage patterns, SOCKS5 proxy, and real-world examples
-- **[Troubleshooting](docs/troubleshooting.md)** - Common issues and solutions
+- `docs/` — Jekyll-based documentation source files
+  - `installation.md` — Platform-specific installation instructions
+  - `quick-start.md` — Getting connected in under 5 minutes
+  - `configuration.md` — Config files and CLI options
+  - `usage.md` — Daily usage patterns and examples
+  - `troubleshooting.md` — Common issues and solutions
+- `SETUP.md` — Guide for setting up GitHub Pages deployment
+- `.github/workflows/` — GitHub Actions workflow for automated deployment
 
-## 🚀 Quick Links
+## Mycelium
 
-- [Mycelium Project Repository](https://github.com/threefoldtech/mycelium)
-- [Public Peers List](docs/quick-start.md#public-peers)
-- [SOCKS5 Proxy Setup](docs/usage.md#socks5-proxy)
+Mycelium is the network layer used to provide secure, peer-to-peer connectivity between nodes, services, and users. It enables decentralized networking across the infrastructure stack and is used as part of the ThreeFold Grid deployment.
 
-## 🛠️ Local Development
+## Role in the stack
+
+Mycelium Guide sits alongside the Mycelium network implementation as its user-facing documentation. It explains how to install and operate Mycelium clients, configure peers, and use network features such as the SOCKS5 proxy. The guide is published via GitHub Pages and is kept in sync with Mycelium releases.
+
+## Relation to ThreeFold
+
+This technology is used within the ThreeFold ecosystem and was first deployed on the ThreeFold Grid. The component itself is designed as reusable infrastructure technology and should be understood by its technical function first, independent of any specific deployment.
+
+## Ownership
+
+This repository is owned and maintained by TF-Tech NV, a Belgian company responsible for the development and maintenance of this technology.
+
+## Local Development
 
 To preview the documentation locally:
 
 ```bash
 cd docs
-jekyll serve
+bundle install
+bundle exec jekyll serve
 ```
 
 Visit `http://localhost:4000/www_myceliumguide/`
 
-## 📝 Contributing
+## Contributing
 
-Contributions are welcome! To improve the documentation:
+Contributions are welcome. To improve the documentation:
 
 1. Fork this repository
 2. Make your changes in the `/docs` directory
 3. Test locally with Jekyll
 4. Submit a pull request
 
-## 📄 License
+## License
 
-This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
-Copyright (c) TFTech NV.
-
-## 🔗 Related Resources
-
-- [Mycelium Technical Documentation](https://github.com/threefoldtech/mycelium/tree/master/docs)
-- [ThreeFold Tech](https://threefold.io/)
+This project is licensed under the Apache License 2.0 — see the [LICENSE](LICENSE) file for details.
